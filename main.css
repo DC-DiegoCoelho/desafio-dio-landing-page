@@ -1,0 +1,156 @@
+@import url(/assests/images/global.css);
+
+
+body{
+    margin: 0;
+    /* background-color: black; */
+}
+
+
+
+.banner{
+    width: 1440px;
+    height: 605px;
+    /* gap: 0px; */
+    /* border: 0px 0px 1px 0px; */
+    /* opacity: 0px;        */
+    border-bottom: solid 1px #33A8DB;
+    /* background-image: url('assests/images/banner.png'); */
+    background-image: url('assests/images/banner.png') , linear-gradient(rgba(0, 0, 0, 1) 8%,rgb(5, 34, 47),rgba(0, 0, 0, 1));
+
+    background-repeat: no-repeat;
+    text-align: center;
+    text-transform: uppercase;
+    
+    
+}
+
+
+
+.banner-content{
+    position: relative;
+    /* border: solid 1px black; */
+    width: 510px;
+    height: 393px;
+    top: 56px;
+    margin: auto;
+
+}
+
+.logo{
+    
+    background-image: url('assests/images/Ellipse\ 1.svg');
+    width: 268px;
+    height: 268px;
+    /* border: solid 1px black; */
+    margin: auto;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;    /* Centraliza verticalmente */
+}
+
+
+h1{
+    /* border: solid 1px black; */
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 46.96px;
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    -webkit-background-clip: text; /* Suporte para Webkit */
+    -webkit-text-fill-color: transparent; /* Tornar o texto transparente no Webkit */
+    background-clip: text; /* Suporte para outros navegadores */
+    color: transparent; /* Tornar o texto transparente */
+    text-align: center; /* Centralizar o texto */
+}
+
+
+
+p{
+    text-transform: none;
+    /* color:  #FFFFFF; */
+    font-size: 20px;
+    line-height: 23.48px;
+    font-weight: 400;
+    margin: 44px 0 0 0;
+    letter-spacing: -0.1px; /* Experimente diferentes valores para encontrar o que funciona melhor */
+    /* border: solid 1px black; */
+    word-break: break-all;
+    color: white;
+    
+
+}
+
+.global-font{
+    width: 326px;
+    height:57px;
+    margin: 32px 0 0 0;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18.78px;
+    letter-spacing: 0.21em;
+    text-align: center;
+    font-family: Raleway;
+    background-color: transparent;
+    border: solid 1px  #1472B7 ;
+    text-transform: uppercase;
+    color: rgba(49, 168, 221, 1); /* Cor do texto */
+
+
+}
+
+/* footer */
+
+body{
+    background-color: black;
+}
+
+
+#course-content{
+    border: solid 1px black;
+    width: 1440px;
+    height: 325px;
+
+}
+
+main h2{
+    border: solid 1px black ;
+    width: 477px;
+    height: 38px;
+    text-transform:uppercase ;
+    text-align: center;
+    line-height: 37.57px;
+    letter-spacing: 10px;
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    -webkit-background-clip: text; /* Suporte para Webkit */
+    -webkit-text-fill-color: transparent; /* Tornar o texto transparente no Webkit */
+    display: flex;
+    margin: auto;
+}
+
+main p{
+    border: solid 1px black;
+    width: 792px;
+    height: 35px;
+    font-size: 16px; 
+    line-height: 18.75px;
+    word-break: break-all;
+    letter-spacing: 0.1px;
+    margin: auto;
+    margin-top: 24px;
+    text-align: center;
+}
+
+.module{
+    width: 535px;
+    right: 51px;
+    border: solid 1px   #1472B7;
+    margin: auto;
+    margin-top: 24px;
+}
+
+span{  
+    color: #1472B7;
+}
